@@ -21,10 +21,15 @@ function Header() {
         listStyle: 'none',
         display: 'flex',
         justifyContent: 'space-around',
-        fontSize: '17px'
+        fontSize: '17px',
+        color: ' rgba(0, 0, 0, 0.6)',
+        lineHeight: '22px',
+        letterSpacing: '0.0043em'
     }
     const twiter={
-        fontSize: '17px'
+        fontSize: '17px',
+        lineHeight: '22px',
+        letterSpacing: '0.0043em'
     }
     return (
         <header>
@@ -41,7 +46,7 @@ function Header() {
                     </ul>
                 </div>
                 <div>
-                    <p style={twiter}>@Your_Twitter</p>
+                    <p style={twiter}>@voidnen</p>
                 </div>
             </div>
         </header>

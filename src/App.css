@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: SF;
+  src: url(./assets/fonts/SFPRODISPLAYREGULAR.OTF);
+}
+body {
+  font-family: 'SF';
 }
 
 /* .App-logo {
