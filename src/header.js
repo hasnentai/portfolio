@@ -28,7 +28,6 @@ function Header() {
     }
     const twiter={
         fontSize: '17px',
-        color: ' rgba(0, 0, 0, 0.6)',
         lineHeight: '22px',
         letterSpacing: '0.0043em'
     }
