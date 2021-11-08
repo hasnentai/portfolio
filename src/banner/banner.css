@@ -12,11 +12,11 @@
 .bannerHeading {
     width: 561px;
     height: 128px;
-    font-size: 64px;
+    font-size: 75px;
     line-height: 100%;
     letter-spacing: 0.0022em;
     color: rgba(0, 0, 0, 0.87);
-    margin: 24px 0px;
+    margin: 33px 0px;
 }
 
 .bannerPara {
