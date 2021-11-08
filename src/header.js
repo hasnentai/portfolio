@@ -46,7 +46,7 @@ function Header() {
                     </ul>
                 </div>
                 <div>
-                    <p style={twiter}>@Your_Twitter</p>
+                    <p style={twiter}>@_void_nen</p>
                 </div>
             </div>
         </header>
