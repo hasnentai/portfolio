@@ -55,3 +55,15 @@
     background-color: #ffffff;
     box-shadow: 3px 3px 3px 3px #d9d9d970;
 }
+
+.vector {
+    position: absolute;
+    left: 11.4%;
+    right: 44.2%;
+    top: 155%;
+    bottom: -101.8%;
+    background: linear-gradient(180deg, #061E9D 0%, #99D8FC 100%);
+    filter: blur(100px);
+    z-index: -1;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}

@@ -8,7 +8,9 @@ function Projects() {
                 <p className="proTitle">Project title</p>
                 <p className="proDescription">You can add what outcomes has this project brought after your design! For example, can show some real data.</p>
                 <p className="tellMeMore">Tell me more</p>
-                <img src={firstProjectImg} alt="firstProjectImage"/>                
+                
+                <img src={firstProjectImg} alt="firstProjectImage"/>
+                <div className="vector"></div>              
         </div>
     );
 }
