@@ -2,12 +2,18 @@ import headerLogo from '../src/assets/Avatar_v3 1.png';
 
 
 function Header() {
+    const stickeyHeader = {
+        position: 'sticky',
+        zIndex: '999',
+        top: '0'
+    }
     const mainHeader = { 
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'flex-end',
         padding: '0px 70px',
-        height: '112px'
+        height: '112px',
+        backgroundColor: '#ffffff'
     }
     const headerImage ={
         width: '56px',
@@ -32,7 +38,7 @@ function Header() {
         letterSpacing: '0.0043em'
     }
     return (
-        <header>
+        <header style={stickeyHeader}>
             <div style={mainHeader}>
                 <div>
                     <img src={headerLogo} alt="logo" style={headerImage}/>
