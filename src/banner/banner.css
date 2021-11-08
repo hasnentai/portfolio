@@ -1,0 +1,102 @@
+.mainBanner {
+    height: 720px;
+    padding-top: 5%;
+}
+
+.bannerContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannerHeading {
+    width: 561px;
+    height: 128px;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0.0022em;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 24px 0px;
+}
+
+.bannerPara {
+    width: 469px;
+    height: 138px;
+    left: 0px;
+    top: 152px;
+    font-size: 28px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 24px 0px;
+}
+
+.sayDis {
+    display: flex;
+    align-items: center;
+}
+
+/* .container {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease-in-out;
+    
+}
+.container:hover {
+    transform: scale(1.04);
+} */
+
+.sayHiBtn {
+    width: 130px;
+    background: #222222;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}
+.sayHiBtn:hover {
+    transform: scale(1.04);
+    background-color: #222222c9;
+    box-shadow: 3px 3px 3px 3px #d9d9d9;
+}
+.sayHi {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 0px 24px;
+}
+
+.disBtn {
+    padding: 13px 16px;
+    width: 188px;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+    border-radius: 12px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+    color: rgba(0, 0, 0, 0.87);
+    margin-left: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.disBtn:hover {
+    transform: scale(1.04);
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px 3px #d9d9d970;
+}
+
+.vector1 {
+    height: 201px;
+    width: 215px;
+    background: linear-gradient(180deg, #FF08AB 0%, rgba(245, 138, 37, 0) 100%, rgba(112, 97, 163, 0) 100%);
+    filter: blur(61px);
+    margin-left: 65px;
+    margin-top: 115px;
+}
+
+.vector2 {
+    width: 369px;
+    height: 369px;
+    background: linear-gradient(180deg, #FC50B7 0%, rgba(255, 197, 111, 0.46) 100%);
+    filter: blur(62px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: -75px;
+}
