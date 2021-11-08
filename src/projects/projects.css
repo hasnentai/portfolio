@@ -1,0 +1,30 @@
+.firstProject {
+    height: 720px;
+    text-align: center;
+    /* padding-top: 104px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.saas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    width: 52px;
+    height: 28px;
+    background: rgba(245, 245, 245, 0.8);
+    border-radius: 8px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 16px;
+
+}
+
+.proTitle {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 64px;
+    margin: 0;
+    letter-spacing: 0.0022em;
+}

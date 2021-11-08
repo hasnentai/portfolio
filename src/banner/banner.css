@@ -12,11 +12,11 @@
 .bannerHeading {
     width: 561px;
     height: 128px;
-    font-size: 64px;
+    font-size: 75px;
     line-height: 100%;
     letter-spacing: 0.0022em;
     color: rgba(0, 0, 0, 0.87);
-    margin: 24px 0px;
+    margin: 33px 0px;
 }
 
 .bannerPara {
@@ -35,19 +35,11 @@
     align-items: center;
 }
 
-/* .container {
-    background-color: rgba(255, 255, 255, 0.5);
-    transition: 0.3s ease-in-out;
-    
-}
-.container:hover {
-    transform: scale(1.04);
-} */
-
 .sayHiBtn {
     width: 130px;
     background: #222222;
     border-radius: 12px;
+    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 .sayHiBtn:hover {
@@ -63,11 +55,10 @@
 }
 
 .disBtn {
-    padding: 13px 16px;
+    padding: 15px 16px;
+    cursor: pointer;
     width: 188px;
     background: rgba(255, 255, 255, 0.5);
-    -webkit-backdrop-filter: blur(100px);
-    backdrop-filter: blur(100px);
     border-radius: 12px;
     font-size: 17px;
     line-height: 22px;
