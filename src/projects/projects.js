@@ -6,9 +6,9 @@ function Projects() {
         <div className="firstProject">
                 <p className="saas">SaaS</p>
                 <p className="proTitle">Project title</p>
-                <p>You can add what outcomes has this project brought after your design! For example, can show some real data.</p>
-                <p>Tell me more</p>
-                <img src={firstProjectImg} />
+                <p className="proDescription">You can add what outcomes has this project brought after your design! For example, can show some real data.</p>
+                <p className="tellMeMore">Tell me more</p>
+                <img src={firstProjectImg} alt="firstProjectImage"/>                
         </div>
     );
 }
