@@ -46,7 +46,7 @@ function Header() {
                     </ul>
                 </div>
                 <div>
-                    <p style={twiter}>@_void_nen</p>
+                    <p style={twiter}>@voidnen</p>
                 </div>
             </div>
         </header>
