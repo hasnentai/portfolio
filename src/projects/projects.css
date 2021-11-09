@@ -56,14 +56,14 @@
     box-shadow: 3px 3px 3px 3px #d9d9d970;
 }
 
-.vector {
+.vector3 {
     position: absolute;
     left: 170px;
-    height: 40vh;
-    width: 40vw;
-    bottom: 138px;
+    height: 27vh;
+    width: 36vw;
+    bottom: 238px;
     background: linear-gradient(360deg, #061E9D 0%, #99D8FC 100%);
-    filter: blur(60px);
+    filter: blur(87px);
     z-index: -1;
 }
 
@@ -104,24 +104,27 @@
     width: 344px;
 }
 
-.vector2 {
+.vector4 {
     position: absolute;
     right: 196px;
     bottom: 0;
     background: linear-gradient(180deg, #D61528 0%, rgba(245, 138, 37, 0) 100%, rgba(112, 97, 163, 0) 100%);
     filter: blur(98px);
     z-index: -1;
+    height: 47vh;
     width: 35%;
 }
 
-.vector3 {
+.vector5 {
     position: absolute;
     width: 194px;
     z-index: -1;
-    right: 563px;
+    right: 196px;
     bottom: 0;
     background: linear-gradient(300deg, #D61528 0%, rgba(255, 197, 111, 0.46) 100%);
     filter: blur(103px);
+    width: 35%;
+    height: 26vh;
 }
 
 .blurBottom2 {
