@@ -143,7 +143,7 @@
     left: 144px;
     filter: blur(100px);
     z-index: -1;
-    bottom: 0;
+    bottom: 200px;
 }
 
 .vector7 {
@@ -152,7 +152,16 @@
     width: 30%;
     position: absolute;
     left: 222px;
-    bottom: 0;
+    bottom: 213px;
     z-index: -1;
     filter: blur(78px);
+}
+
+.blurBottom3 {
+    position: absolute;
+    height: 43vh;
+    bottom: -14px;
+    z-index: 0;
+    width: 100%;
+    background: linear-gradient( 0deg, #FFFFFF 10.64%, rgba(255, 255, 255, 0) 88.02%);
 }

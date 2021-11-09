@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './banner/banner';
 import Header from './header';
+import LocalMeet from './localMeetUps/locaMeet';
 import Projects from './projects/projects';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Banner />
       <Projects />
+      <LocalMeet />
     </>
 
   );

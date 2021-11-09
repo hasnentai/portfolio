@@ -43,7 +43,7 @@ function Projects() {
                     <p className="tellMeMore">Tell me more</p>
                 </div>
 
-                <div className="blurBottom2"></div>
+                <div className="blurBottom3"></div>
             </div>
         </div>
     );
