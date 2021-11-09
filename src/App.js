@@ -3,6 +3,7 @@ import Banner from './banner/banner';
 import Header from './header';
 import LocalMeet from './localMeetUps/locaMeet';
 import Projects from './projects/projects';
+import Workshops from './workshops/workshops';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Projects />
       <LocalMeet />
+      <Workshops />
     </>
 
   );

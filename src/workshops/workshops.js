@@ -1,16 +1,16 @@
-import './localMeet.css';
-import localMeetImg1 from '../assets/localmeetImg1.png';
-import localMeetImg2 from '../assets/localmeetImg2.png';
+import './workshops.css';
+import workshopsImg1 from '../assets/workshopImg1.png';
+import workshopsImg2 from '../assets/workshopImg2.png';
 
 
-function LocalMeet() {
+function Workshops() {
     return (
-        <div className="localMeetWrapper">
-            <p className="localMeetHeading">Local Meet up’s</p>
-            <div className="localMeetUpSection">
-                <div className="localMeetUpSectionLeft">
+        <div className="workshopsWrapper">
+            <p className="workshopsHeading">Workshops</p>
+            <div className="workshopsSection">
+                <div className="workshopsSectionLeft">
                     <div>
-                        <img src={localMeetImg1} alt="localMeetImg" />
+                        <img src={workshopsImg1} alt="workshopImg" />
                     </div>
                     <div className="tdp">
                         <p className="tdpTitle">Project Title</p>
@@ -23,9 +23,9 @@ function LocalMeet() {
                     </div>
                     
                 </div>
-                <div className="localMeetUpSectionLeft">
+                <div className="workshopsSectionLeft">
                     <div>
-                        <img src={localMeetImg2} alt="localMeetImg" />
+                        <img src={workshopsImg2} alt="workshopImg" />
                     </div>
                     <div className="tdp">
                         <p className="tdpTitle">Project Title</p>
@@ -37,11 +37,11 @@ function LocalMeet() {
                         </div>
                     </div>
                 </div>
+                <div className="vector10"></div>
             </div>
-            <div className="vector8"></div>
-            <div className="vector9"></div>
+            
         </div>
     );
 }
 
-export default LocalMeet;
+export default Workshops;

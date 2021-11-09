@@ -4,4 +4,93 @@
     line-height: 100%;
     letter-spacing: 0.0022em;
     color: rgba(0, 0, 0, 0.87);
+    margin-left: 10.5%;
+}
+
+.localMeetUpSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.localMeetUpSectionLeft {
+    width: 588px;
+    height: 565px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    backdrop-filter: blur(100px);
+    border-radius: 32px;
+    margin: 10px;
+}
+.localMeetWrapper{
+    position: relative;
+}
+.localMeetUpSectionLeft>div>img {
+    border-radius: 32px;
+    margin: 24px;
+    width: -webkit-fill-available;
+    height: 44vh;
+}
+
+.tdp {
+    margin-left: 24px;
+}
+
+.tdpTitle {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.0007em;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0px auto;
+}
+
+.tdpDes {
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+    color: rgba(0, 0, 0, 0.6);
+    /* margin: 0px auto; */
+}
+
+.tdpPlatform {
+    display: flex;
+}
+
+.tdpPlatform p {
+    padding: 8px 10px 0 9px;
+    width: 83px;
+    height: 28px;
+    background: rgba(245, 245, 245, 0.8);
+    backdrop-filter: blur(100px);
+    border-radius: 8px;
+    margin-right: 12px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.vector8 {
+    background: linear-gradient( 240deg, #3C8FF7 0%, #6966F5 100%);
+    filter: blur(70px);
+    position: absolute;
+    height: 20vh;
+    width: 44%;
+    left: 60px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.vector9 {
+    background: linear-gradient( 180deg, #0888FF 0%, rgba(245, 138, 37, 0) 100%, rgba(58, 0, 254, 0) 100%);
+    transform: rotate( -180deg);
+    height: 20vh;
+    width: 50%;
+    position: absolute;
+    left: 60px;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(100px);
 }
