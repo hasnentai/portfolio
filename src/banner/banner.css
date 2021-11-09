@@ -89,5 +89,6 @@
     background: linear-gradient(180deg, #FC50B7 0%, rgba(255, 197, 111, 0.46) 100%);
     filter: blur(62px);
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    margin-top: -75px;
+    margin-top: -90px;
+    border-radius: 50%;
 }

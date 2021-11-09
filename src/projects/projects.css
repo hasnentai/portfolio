@@ -1,5 +1,5 @@
 .firstProject {
-    height: 720px;
+    position: relative;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -58,12 +58,77 @@
 
 .vector {
     position: absolute;
-    left: 11.4%;
-    right: 44.2%;
-    top: 155%;
-    bottom: -101.8%;
-    background: linear-gradient(180deg, #061E9D 0%, #99D8FC 100%);
-    filter: blur(100px);
+    left: 170px;
+    height: 40vh;
+    width: 40vw;
+    bottom: 138px;
+    background: linear-gradient(360deg, #061E9D 0%, #99D8FC 100%);
+    filter: blur(60px);
     z-index: -1;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.blurBottom {
+    position: absolute;
+    height: 255px;
+    bottom: -16px;
+    z-index: 0;
+    width: 100%;
+    background: linear-gradient(0deg, #FFFFFF 10.64%, rgb(255 255 255 / 0%) 88.02%);
+}
+
+.secondProject {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 160px;
+}
+
+.mobileApp {
+    background-color: rgba(245, 245, 245, 0.8);
+    width: 83px;
+    text-align: center;
+    padding: 15px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.proDes {
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.0007em;
+    color: rgba(0, 0, 0, 0.6);
+    width: 344px;
+}
+
+.vector2 {
+    position: absolute;
+    right: 196px;
+    bottom: 0;
+    background: linear-gradient(180deg, #D61528 0%, rgba(245, 138, 37, 0) 100%, rgba(112, 97, 163, 0) 100%);
+    filter: blur(98px);
+    z-index: -1;
+    width: 35%;
+}
+
+.vector3 {
+    position: absolute;
+    width: 194px;
+    z-index: -1;
+    right: 563px;
+    bottom: 0;
+    background: linear-gradient(300deg, #D61528 0%, rgba(255, 197, 111, 0.46) 100%);
+    filter: blur(103px);
+}
+
+.blurBottom2 {
+    position: absolute;
+    height: 161px;
+    bottom: 0px;
+    z-index: 0;
+    width: 100%;
+    background: linear-gradient(0deg, #FFFFFF 10.64%, rgba(255, 255, 255, 0) 88.02%);
 }
