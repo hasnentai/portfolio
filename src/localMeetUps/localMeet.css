@@ -16,7 +16,7 @@
 
 .localMeetUpSectionLeft {
     width: 588px;
-    height: 565px;
+    /* height: 565px; */
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-sizing: border-box;
@@ -27,11 +27,16 @@
 .localMeetWrapper{
     position: relative;
 }
+
+.localMeetUpSectionLeft>div {
+    margin: 10px;
+}
 .localMeetUpSectionLeft>div>img {
     border-radius: 32px;
-    margin: 24px;
-    width: -webkit-fill-available;
-    height: 44vh;
+    /* margin: 24px; */
+    width: 100%;
+    object-fit: cover;
+    height: 352px;
 }
 
 .tdp {
