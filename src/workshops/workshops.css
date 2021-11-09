@@ -46,6 +46,6 @@
     position: absolute;
     left: 25%;
     bottom: 0;
-    filter: blur(116px);
+    filter: blur(76px);
     z-index: -1;
 }

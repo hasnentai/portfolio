@@ -38,8 +38,7 @@ function Workshops() {
                     </div>
                 </div>
                 <div className="vector10"></div>
-            </div>
-            
+            </div>  
         </div>
     );
 }
