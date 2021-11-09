@@ -23,7 +23,7 @@
 
 .workshopsSectionLeft {
     width: 588px;
-    height: 565px;
+    /* height: 565px; */
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-sizing: border-box;
