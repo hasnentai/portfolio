@@ -92,3 +92,7 @@
     margin-top: -90px;
     border-radius: 50%;
 }
+
+@media only screen and (max-width: 767px) {
+    
+}

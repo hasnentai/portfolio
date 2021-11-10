@@ -77,8 +77,8 @@
     background: linear-gradient( 240deg, #3C8FF7 0%, #6966F5 100%);
     filter: blur(70px);
     position: absolute;
-    height: 20vh;
-    width: 44%;
+    height: 200px;
+    width: 588px;
     left: 60px;
     bottom: 0;
     z-index: -1;
@@ -87,8 +87,8 @@
 .vector9 {
     background: linear-gradient( 180deg, #0888FF 0%, rgba(245, 138, 37, 0) 100%, rgba(58, 0, 254, 0) 100%);
     transform: rotate( -180deg);
-    height: 20vh;
-    width: 50%;
+    height: 200px;
+    width: 588px;
     position: absolute;
     left: 60px;
     bottom: 0;

@@ -132,7 +132,7 @@
 
 .blurBottom2 {
     position: absolute;
-    height: 22vh;
+    height: 170px;
     bottom: -7px;
     z-index: 0;
     width: 100%;
@@ -165,7 +165,7 @@
 
 .blurBottom3 {
     position: absolute;
-    height: 43vh;
+    height: 300px;
     bottom: -14px;
     z-index: 0;
     width: 100%;
