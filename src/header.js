@@ -11,7 +11,7 @@ function Header() {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'flex-end',
-        padding: '0px 140px',
+        // padding: '0px 140px',
         height: '112px',
         backgroundColor: '#ffffff'
     }
