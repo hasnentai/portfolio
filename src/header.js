@@ -5,14 +5,15 @@ function Header() {
     const stickeyHeader = {
         position: 'sticky',
         zIndex: '999',
-        top: '0'
+        top: '0',
+        borderBottom: '1px solid #d9d9d954'
     }
     const mainHeader = { 
         display: 'flex',
         justifyContent: 'space-between',
-        alignItems: 'flex-end',
-        padding: '0px 140px',
-        height: '112px',
+        alignItems: 'center',
+        padding: '15px 140px',
+        // height: '112px',
         backgroundColor: '#ffffff'
     }
     const headerImage ={

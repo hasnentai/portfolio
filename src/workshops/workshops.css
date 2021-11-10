@@ -1,7 +1,7 @@
 .workshopsWrapper {
     position: relative;
     background-color: #ffffff;
-    z-index: 0;
+    z-index: 2;
 }
 
 .workshopsHeading {
