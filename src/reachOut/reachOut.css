@@ -2,6 +2,7 @@
     background-color: #FFFFFF;
     margin-top: 40px;
     padding-top: 77px;
+    padding-bottom: 128px;
 }
 
 .reachOutContainer {
@@ -63,6 +64,14 @@
     color: #FFFFFF;
     text-align: center;
     margin-left: 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.letMeIn:hover {
+    transform: scale(1.04);
+    background-color: #222222c9;
+    box-shadow: 3px 3px 3px 3px #d9d9d9;
 }
 
 .reachOutContainerRightMain {

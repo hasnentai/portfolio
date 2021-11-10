@@ -1,0 +1,39 @@
+.mainFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+    background: #ffffff;
+    height: 112px;
+}
+
+.footer1>p {
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.footer2 {
+    width: 50%;
+}
+
+.footer2>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer2>ul>li {
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.footer3>p {
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+    color: rgba(0, 0, 0, 0.87);
+}
