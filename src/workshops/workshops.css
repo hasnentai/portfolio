@@ -49,3 +49,27 @@
     filter: blur(76px);
     z-index: -1;
 }
+
+@media only screen and (max-width: 767px) {
+    .workshopsWrapper {
+        width: 100%;
+        padding: 10px;
+    }
+    .workshopsSection {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .workshopsSectionLeft {
+        width: 400px;
+    }
+    .workshopsHeading {
+        font-size: 40px;
+        margin-left: 0;
+    }
+    .workshopsSectionLeft>div>img {
+        height: 217px;
+    }
+    .vector10 {
+        display: none;
+    }
+}

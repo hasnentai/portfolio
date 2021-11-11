@@ -1,0 +1,51 @@
+.stickeyHeader {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    border-bottom: 1px solid #d9d9d954;
+}
+
+.mainHeader { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 140px;
+    /* height: 112px; */
+    background-color: #ffffff
+}
+
+.headerImage {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%
+}
+
+.listStyleDiv {
+    width: 50%
+}
+
+.listStyle {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+}
+
+.twiter {
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+}
+
+@media only screen and (max-width: 767px) {
+    .mainHeader {
+        padding: 5px;
+        width: 100%;
+    }
+    .listStyleDiv {
+        display: none;
+    }
+}

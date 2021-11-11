@@ -95,3 +95,27 @@
     z-index: -1;
     filter: blur(100px);
 }
+
+@media only screen and (max-width: 767px) {
+    .localMeetWrapper {
+        width: 100%;
+        padding: 10px;
+    }
+    .localMeetHeading {
+        font-size: 40px;
+        margin-left: 0;
+    }
+    .localMeetUpSection {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .localMeetUpSectionLeft {
+        width: 100%;
+    }
+    .localMeetUpSectionLeft>div>img {
+        height: 250px;
+    }
+    .vector8, .vector9 {
+        display: none;
+    }
+}

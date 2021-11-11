@@ -30,7 +30,7 @@ function Projects() {
                 <div className="blurBottom2"></div>
             </div>
 
-            <div className="secondProject">
+            <div className="thirdProject">
                 <div className="secondProjectRight">
                     <img src={thirdProjectImg} alt="secondProjectImage" />
                     <div className="vector6"></div>

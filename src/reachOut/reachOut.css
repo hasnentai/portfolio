@@ -119,3 +119,42 @@
     right: 0;
     bottom: 0;
 }
+
+@media only screen and (max-width: 767px) {
+    .reachOutContainer {
+        display: block;
+    }
+    .reachOutContainerDes {
+        font-size: 18px;
+        width: 100%;
+    }
+    .reachOutContainerHeading {
+        font-size: 40px;
+    }
+    .emailBox {
+        width: 222px;
+        font-size: 14px;
+    }
+    .emailBox::placeholder {
+        font-size: 14px;
+    }
+    .letMeIn {
+        padding: 12px;
+        width: 75px;
+    }
+    .reachOutMainContainer {
+        padding: 1px 10px 50px 10px;
+    }
+    
+    .reachOutContainerRight {
+        display: none;
+    }
+    
+    .reachOutContainerRight img {
+        width: 40px;
+        height: 40px;
+    }
+    .vector11, .vector12 {
+        display: none;
+    }
+}

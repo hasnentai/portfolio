@@ -42,11 +42,13 @@
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
+
 .sayHiBtn:hover {
     transform: scale(1.04);
     background-color: #222222c9;
     box-shadow: 3px 3px 3px 3px #d9d9d9;
 }
+
 .sayHi {
     color: #FFFFFF;
     text-align: center;
@@ -94,5 +96,35 @@
 }
 
 @media only screen and (max-width: 767px) {
-    
+    .mainBanner {
+        height: 487px;
+        padding: 10px;
+    }
+    .bannerContent {
+        display: block;
+    }
+    .mainBanner>div>div:nth-child(2) {
+        display: none;
+    }
+    .bannerHeading {
+        font-size: 40px;
+        width: 100%;
+        margin-bottom: 0;
+        height: 57px;
+    }
+    .bannerPara {
+        width: 100%;
+        font-size: 18px;
+        height: 80px;
+        margin-bottom: 0;
+    }
+    .sayHiBtn {
+        width: fit-content;
+    }
+    .sayHi {
+        font-size: 15px;
+    }
+    .disBtn {
+        font-size: 15px;
+    }
 }
