@@ -206,7 +206,7 @@
     }
     .secondProject {
         flex-wrap: wrap;
-        width: 100%;
+        /* width: 100%; */
         /* justify-content: space-between; */
         padding: 90px 10px 0 10px;
     }
@@ -225,7 +225,7 @@
     }
     .thirdProject {
         flex-wrap: wrap-reverse;
-        width: 100%;
+        /* width: 100%; */
         padding: 90px 10px 0px 10px;
     }
     .vector6, .vector7 {

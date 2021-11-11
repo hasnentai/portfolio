@@ -43,7 +43,7 @@
 @media only screen and (max-width: 767px) {
     .mainHeader {
         padding: 5px;
-        width: 100%;
+        /* width: 100%; */
     }
     .listStyleDiv {
         display: none;

@@ -52,12 +52,12 @@
 
 @media only screen and (max-width: 767px) {
     .workshopsWrapper {
-        width: 100%;
+        /* width: 100%; */
         padding: 10px;
     }
     .workshopsSection {
         flex-wrap: wrap;
-        width: 100%;
+        /* width: 100%; */
     }
     .workshopsSectionLeft {
         width: 400px;

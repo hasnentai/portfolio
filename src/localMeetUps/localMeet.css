@@ -98,7 +98,7 @@
 
 @media only screen and (max-width: 767px) {
     .localMeetWrapper {
-        width: 100%;
+        /* width: 100%; */
         padding: 10px;
     }
     .localMeetHeading {
@@ -107,10 +107,10 @@
     }
     .localMeetUpSection {
         flex-wrap: wrap;
-        width: 100%;
+        /* width: 100%; */
     }
     .localMeetUpSectionLeft {
-        width: 100%;
+        /* width: 100%; */
     }
     .localMeetUpSectionLeft>div>img {
         height: 250px;
