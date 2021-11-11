@@ -4,7 +4,6 @@
     align-items: center;
     padding: 0 140px;
     background: #ffffff;
-    height: 112px;
     position: relative;
     z-index: 2;
 }
@@ -41,10 +40,12 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .mainFooter{
-        display: block;
+    .mainFooter {
+        padding: 0 25px;
+        display: flex;
+        border-top: 1px solid #d9d9d954;
     }
-    .footer2{
+    .footer2 {
         display: none;
     }
 }

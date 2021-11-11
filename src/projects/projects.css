@@ -195,6 +195,9 @@
         font-size: 15px;
         width: fit-content;
     }
+    .firstProject {
+        padding: 0 25px;
+    }
     .firstProject>img {
         height: 115px;
     }
@@ -208,7 +211,7 @@
         flex-wrap: wrap;
         /* width: 100%; */
         /* justify-content: space-between; */
-        padding: 90px 10px 0 10px;
+        padding: 90px 25px 0 25px;
     }
     .proDes {
         font-size: 15px;
@@ -228,7 +231,7 @@
     .thirdProject {
         flex-wrap: wrap-reverse;
         /* width: 100%; */
-        padding: 90px 10px 0px 10px;
+        padding: 90px 25px 0px 25px;
     }
     .blurBottom3 {
         height: 148px;

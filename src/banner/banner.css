@@ -98,7 +98,7 @@
 @media only screen and (max-width: 767px) {
     .mainBanner {
         height: 350px;
-        padding: 10px;
+        padding: 10px 25px;
         margin-top: 70px;
     }
     .bannerContent {
