@@ -1,5 +1,5 @@
 import './projects.css';
-import firstProjectImg from '../assets/proImg1.png';
+import firstProjectImg from '../assets/proImg.png';
 import secondProjectImg from '../assets/proImg2.png';
 import thirdProjectImg from '../assets/proImg3.png';
 

@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.firstProject img {
+    width: 67%;
+}
+
 .saas {
     display: flex;
     justify-content: center;
@@ -199,7 +203,8 @@
         padding: 0 25px;
     }
     .firstProject>img {
-        height: 115px;
+        height: 90px;
+        width: auto;
     }
     .vector3 {
         display: none;
