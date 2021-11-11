@@ -196,7 +196,7 @@
         width: fit-content;
     }
     .firstProject>img {
-        width: -webkit-fill-available;
+        height: 115px;
     }
     .vector3 {
         display: none;
