@@ -35,6 +35,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .emailBox {
@@ -127,12 +128,13 @@
     .reachOutContainerDes {
         font-size: 18px;
         width: 100%;
+        height: fit-content;
     }
     .reachOutContainerHeading {
         font-size: 40px;
     }
     .emailBox {
-        width: 222px;
+        width: -webkit-fill-available;;
         font-size: 14px;
     }
     .emailBox::placeholder {
@@ -141,6 +143,7 @@
     .letMeIn {
         padding: 12px;
         width: 75px;
+        margin:5px 0px;
     }
     .reachOutMainContainer {
         padding: 1px 10px 50px 10px;

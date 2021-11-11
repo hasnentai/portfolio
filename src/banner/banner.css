@@ -99,6 +99,7 @@
     .mainBanner {
         height: 350px;
         padding: 10px;
+        margin-top: 70px;
     }
     .bannerContent {
         display: block;
@@ -110,21 +111,27 @@
         font-size: 40px;
         width: 100%;
         margin-bottom: 0;
-        height: 57px;
+        height: fit-content;
     }
     .bannerPara {
         width: 100%;
         font-size: 18px;
-        height: 80px;
+        height: fit-content;
         margin-bottom: 0;
+    }
+    .sayDis {
+        margin-top: 25px;
     }
     .sayHiBtn {
         width: fit-content;
+        flex: 1;
     }
     .sayHi {
         font-size: 15px;
     }
     .disBtn {
         font-size: 15px;
+        flex: 1;
+        padding: 15px 0;
     }
 }

@@ -1,5 +1,6 @@
 .stickeyHeader {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     z-index: 999;
     top: 0;
     border-bottom: 1px solid #d9d9d954;
@@ -43,9 +44,12 @@
 @media only screen and (max-width: 767px) {
     .mainHeader {
         padding: 5px;
-        /* width: 100%; */
     }
     .listStyleDiv {
         display: none;
+    }
+    .headerImage {
+        width: 40px;
+        height: 40px;
     }
 }
