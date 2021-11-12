@@ -3,7 +3,7 @@ import email from '../assets/email.png';
 
 function ReachOut() {
     return (
-        <div className="reachOutMainContainer">
+        <div className="reachOutMainContainer" id="reachMe">
             <div className="reachOutContainer">
                 <div className="reachOutContainerLeft">
                     <p className="reachOutContainerHeading">Reach out for more?</p>

@@ -5,7 +5,7 @@ import thirdProjectImg from '../assets/proImg3.png';
 
 function Projects() {
     return (
-        <div>
+        <div id="projects">
             <div className="firstProject">
                 <p className="saas">SaaS</p>
                 <p className="proTitle">ANA JAL Web App</p>

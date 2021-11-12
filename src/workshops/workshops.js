@@ -5,7 +5,7 @@ import workshopsImg2 from '../assets/workshopImg2.png';
 
 function Workshops() {
     return (
-        <div className="workshopsWrapper">
+        <div className="workshopsWrapper" id="workshops">
             <p className="workshopsHeading">Workshops</p>
             <div className="workshopsSection">
                 <div className="workshopsSectionLeft">

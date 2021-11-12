@@ -5,7 +5,7 @@ import localMeetImg2 from '../assets/localmeetImg2.png';
 
 function LocalMeet() {
     return (
-        <div className="localMeetWrapper">
+        <div className="localMeetWrapper" id="localMeets">
             <p className="localMeetHeading">Local Meet up’s</p>
             <div className="localMeetUpSection">
                 <div className="localMeetUpSectionLeft">
