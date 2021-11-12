@@ -1,10 +1,14 @@
 .firstProject {
-    height: 720px;
+    position: relative;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.firstProject img {
+    width: 67%;
 }
 
 .saas {
@@ -56,14 +60,188 @@
     box-shadow: 3px 3px 3px 3px #d9d9d970;
 }
 
-.vector {
+.vector3 {
     position: absolute;
-    left: 11.4%;
-    right: 44.2%;
-    top: 155%;
-    bottom: -101.8%;
-    background: linear-gradient(180deg, #061E9D 0%, #99D8FC 100%);
+    left: 170px;
+    height: 344px;
+    width: 535px;
+    bottom: 0;
+    background: linear-gradient(360deg, #061E9D 0%, #99D8FC 100%);
+    filter: blur(87px);
+    z-index: -1;
+}
+
+.blurBottom {
+    position: absolute;
+    height: 255px;
+    bottom: -16px;
+    z-index: 0;
+    width: 100%;
+    background: linear-gradient(0deg, #FFFFFF 10.64%, rgb(255 255 255 / 0%) 88.02%);
+}
+
+.secondProject {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 160px;
+    z-index: 2;
+    background: #ffffff;
+}
+
+.mobileApp {
+    background-color: rgba(245, 245, 245, 0.8);
+    width: 83px;
+    text-align: center;
+    padding: 15px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.proDes {
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.0007em;
+    color: rgba(0, 0, 0, 0.6);
+    width: 344px;
+}
+
+.vector4 {
+    background: linear-gradient(180deg, #D61528 0%, rgba(245, 138, 37, 0) 100%, rgba(112, 97, 163, 0) 100%);
+    filter: blur(60px);
+    height: 450px;
+    width: 368px;
+    position: absolute;
+    right: 254px;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.vector5 {
+    background: linear-gradient(180deg, #D61528 0%, rgba(255, 197, 111, 0.46) 100%);
+    filter: blur(60px);
+    height: 450px;
+    width: 368px;
+    position: absolute;
+    right: 330px;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.blurBottom2 {
+    position: absolute;
+    height: 170px;
+    bottom: -7px;
+    z-index: 0;
+    width: 100%;
+    background: linear-gradient(0deg, #FFFFFF 10.64%, rgba(255, 255, 255, 0) 88.02%);
+}
+
+.thirdProject {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 160px;
+    z-index: 2;
+    background: #ffffff;
+}
+
+.vector6 {
+    background: linear-gradient(180deg, #FF08AB 0%, rgba(245, 138, 37, 0) 100%, rgba(112, 97, 163, 0) 100%);
+    height: 400px;
+    width: 430px;
+    position: absolute;
+    left: 200px;
     filter: blur(100px);
     z-index: -1;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+    bottom: 0;
+    border-radius: 50%;
+}
+
+.vector7 {
+    background: linear-gradient(180deg, #FC50B7 0%, rgba(255, 197, 111, 0.46) 100%);
+    height: 400px;
+    width: 430px;
+    position: absolute;
+    left: 250px;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(78px);
+    border-radius: 50%;
+}
+
+.blurBottom3 {
+    position: absolute;
+    height: 300px;
+    bottom: -14px;
+    z-index: 0;
+    width: 100%;
+    background: linear-gradient( 0deg, #FFFFFF 10.64%, rgba(255, 255, 255, 0) 88.02%);
+}
+
+@media only screen and (max-width: 767px) {
+    .proTitle {
+        font-size: 40px;
+    }
+    .proDescription {
+        font-size: 15px;
+        width: 100%;
+        height: fit-content;
+    }
+    .tellMeMore {
+        font-size: 15px;
+        width: fit-content;
+    }
+    .firstProject {
+        padding: 0 25px;
+    }
+    .firstProject>img {
+        height: 90px;
+        width: auto;
+    }
+    .vector3 {
+        display: none;
+    }
+    .blurBottom {
+        height: 120px;
+    }
+    .secondProject {
+        flex-wrap: wrap;
+        /* width: 100%; */
+        /* justify-content: space-between; */
+        padding: 90px 25px 0 25px;
+    }
+    .proDes {
+        font-size: 15px;
+        width: auto;
+    }
+    .secondProjectRight {
+        width: 100%;
+        text-align: center;
+    }
+    .secondProjectRight>img {
+        width:auto;
+        height: 240px;
+    }
+    .vector4, .vector5 {
+        display: none;
+    }
+    .thirdProject {
+        flex-wrap: wrap-reverse;
+        /* width: 100%; */
+        padding: 90px 25px 0px 25px;
+    }
+    .blurBottom3 {
+        height: 148px;
+    }
+    .vector6, .vector7 {
+        display: none;
+    }
 }

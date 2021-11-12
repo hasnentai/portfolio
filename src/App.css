@@ -2,8 +2,12 @@
   font-family: SF;
   src: url(./assets/fonts/SFPRODISPLAYREGULAR.OTF);
 }
+
 body {
   font-family: 'SF';
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
 }
 
 /* .App-logo {

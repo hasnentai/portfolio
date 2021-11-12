@@ -42,11 +42,13 @@
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
+
 .sayHiBtn:hover {
     transform: scale(1.04);
     background-color: #222222c9;
     box-shadow: 3px 3px 3px 3px #d9d9d9;
 }
+
 .sayHi {
     color: #FFFFFF;
     text-align: center;
@@ -89,5 +91,47 @@
     background: linear-gradient(180deg, #FC50B7 0%, rgba(255, 197, 111, 0.46) 100%);
     filter: blur(62px);
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    margin-top: -75px;
+    margin-top: -90px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .mainBanner {
+        height: 350px;
+        padding: 10px 25px;
+        margin-top: 70px;
+    }
+    .bannerContent {
+        display: block;
+    }
+    .mainBanner>div>div:nth-child(2) {
+        display: none;
+    }
+    .bannerHeading {
+        font-size: 40px;
+        width: 100%;
+        margin-bottom: 0;
+        height: fit-content;
+    }
+    .bannerPara {
+        width: 100%;
+        font-size: 18px;
+        height: fit-content;
+        margin-bottom: 0;
+    }
+    .sayDis {
+        margin-top: 25px;
+    }
+    .sayHiBtn {
+        width: fit-content;
+        flex: 1;
+    }
+    .sayHi {
+        font-size: 15px;
+    }
+    .disBtn {
+        font-size: 15px;
+        flex: 1;
+        padding: 15px 0;
+    }
 }
