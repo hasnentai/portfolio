@@ -8,7 +8,7 @@ function Projects() {
         <div>
             <div className="firstProject">
                 <p className="saas">SaaS</p>
-                <p className="proTitle">Project title</p>
+                <p className="proTitle">ANA JAL Web App</p>
                 <p className="proDescription">You can add what outcomes has this project brought after your design! For example, can show some real data.</p>
                 <p className="tellMeMore">Tell me more</p>
                 <img src={firstProjectImg} alt="firstProjectImage" />
@@ -17,7 +17,7 @@ function Projects() {
             </div>
             <div className="secondProject">
                 <div className="secondProjectLeft">
-                    <p className="proTitle">Project title</p>
+                    <p className="proTitle">JCC Wallet</p>
                     <p className="mobileApp">Mobile App</p>
                     <p className="proDes">You can add what outcomes has this project brought after your design! For example, can show some real data.</p>
                     <p className="tellMeMore">Tell me more</p>
@@ -37,7 +37,7 @@ function Projects() {
                     <div className="vector7"></div>
                 </div>
                 <div className="secondProjectLeft">
-                    <p className="proTitle">Project title</p>
+                    <p className="proTitle">ANA JAL Mobile App</p>
                     <p className="mobileApp">Mobile App</p>
                     <p className="proDes">You can add what outcomes has this project brought after your design! For example, can show some real data.</p>
                     <p className="tellMeMore">Tell me more</p>
