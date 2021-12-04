@@ -21,11 +21,11 @@ function Header() {
 
     const activeDesktopMenu = useRef(null);
     const activeMenu = (index) => {
-       
+
         let len = activeDesktopMenu.current.childNodes.length;
         let liNodes = activeDesktopMenu.current.childNodes;
 
-        for(let i=0; i<len; i++){
+        for (let i = 0; i < len; i++) {
             liNodes[i].classList.remove("active");
         }
 
@@ -36,24 +36,26 @@ function Header() {
         <header className="stickeyHeader">
             <div className="mainHeader">
                 <div>
-                    <img src={headerLogo} alt="logo" className="headerImage" />
+                    <a href="/">
+                        <img src={headerLogo} alt="logo" className="headerImage" />
+                    </a>
                 </div>
                 <div className="listStyleDiv">
                     <ul ref={activeDesktopMenu} className="listStyle">
 
-                        <li className="active" onClick={()=>{activeMenu(0)}}>
+                        <li className="active" onClick={() => { activeMenu(0) }}>
                             <a href="#projects" className="navLink">Projects</a>
                         </li>
 
-                        <li onClick={()=>{activeMenu(1)}}>
+                        <li onClick={() => { activeMenu(1) }}>
                             <a href="#workshops" className="navLink">Workshops</a>
                         </li>
 
-                        <li onClick={()=>{activeMenu(2)}}>
+                        <li onClick={() => { activeMenu(2) }}>
                             <a href="#localMeets" className="navLink">Local meets</a>
                         </li>
-                        
-                        <li onClick={()=>{activeMenu(3)}}>
+
+                        <li onClick={() => { activeMenu(3) }}>
                             <a href="#reachMe" className="navLink">Reach Me</a>
                         </li>
                     </ul>
