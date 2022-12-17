@@ -1,58 +1,85 @@
+import './header.css';
 import headerLogo from '../src/assets/Avatar_v3 1.png';
+import { Menu, Twitter, XCircle } from 'react-feather';
+import { useRef, useState } from 'react';
 
 
 function Header() {
-    const stickeyHeader = {
-        position: 'sticky',
-        zIndex: '999',
-        top: '0'
+    const mobileMenu = useRef(null);
+    const [isOpen, setIsOpen] = useState(false)
+
+    const toggelMenu = () => {
+
+        if (!isOpen) {
+            mobileMenu.current.style.transform = 'scaleY(1)';
+            setIsOpen(true)
+        } else {
+            mobileMenu.current.style.transform = 'scaleY(0)';
+            setIsOpen(false)
+        }
     }
-    const mainHeader = { 
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'flex-end',
-        padding: '0px 140px',
-        height: '112px',
-        backgroundColor: '#ffffff'
+
+    const activeDesktopMenu = useRef(null);
+    const activeMenu = (index) => {
+
+        let len = activeDesktopMenu.current.childNodes.length;
+        let liNodes = activeDesktopMenu.current.childNodes;
+
+        for (let i = 0; i < len; i++) {
+            liNodes[i].classList.remove("active");
+        }
+
+        liNodes[index].classList.add("active")
     }
-    const headerImage ={
-        width: '56px',
-        height: '56px',
-        borderRadius: '50%'
-    }
-    const listStyleDiv = {
-        width: '50%'
-    }
-    const listStyle={
-        listStyle: 'none',
-        display: 'flex',
-        justifyContent: 'space-around',
-        fontSize: '17px',
-        color: ' rgba(0, 0, 0, 0.6)',
-        lineHeight: '22px',
-        letterSpacing: '0.0043em'
-    }
-    const twiter={
-        fontSize: '17px',
-        lineHeight: '22px',
-        letterSpacing: '0.0043em'
-    }
+
     return (
-        <header style={stickeyHeader}>
-            <div style={mainHeader}>
+        <header className="stickeyHeader">
+            <div className="mainHeader">
                 <div>
-                    <img src={headerLogo} alt="logo" style={headerImage}/>
+                    <a href="/">
+                        <img src={headerLogo} alt="logo" className="headerImage" />
+                    </a>
                 </div>
-                <div style={listStyleDiv}>
-                    <ul style={listStyle}>
-                        <li>Projects</li>
-                        <li>Workshops</li>
-                        <li>Local meets</li>
-                        <li>Reach Me</li>
+                <div className="listStyleDiv">
+                    <ul ref={activeDesktopMenu} className="listStyle">
+
+                        <li className="active" onClick={() => { activeMenu(0) }}>
+                            <a href="#projects" className="navLink">Projects</a>
+                        </li>
+
+                        <li onClick={() => { activeMenu(1) }}>
+                            <a href="#workshops" className="navLink">Workshops</a>
+                        </li>
+
+                        <li onClick={() => { activeMenu(2) }}>
+                            <a href="#localMeets" className="navLink">Local meets</a>
+                        </li>
+
+                        <li onClick={() => { activeMenu(3) }}>
+                            <a href="#reachMe" className="navLink">Reach Me</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
-                    <p style={twiter}>@voidnen</p>
+                    <p className="twiter">@voidnen</p>
+                </div>
+                <div className="hamburger">
+                    {!isOpen ?
+                        <Menu onClick={toggelMenu} /> :
+                        <XCircle onClick={toggelMenu} />}
+                </div>
+            </div>
+
+            <div ref={mobileMenu} className="mobileMenu">
+                <ul className="mobileList">
+                    <li>Projects</li>
+                    <li>Workshops</li>
+                    <li>Local meets</li>
+                    <li>Reach Me</li>
+                </ul>
+                <div>
+                    <Twitter />
+                    <p>@voidnen</p>
                 </div>
             </div>
         </header>
