@@ -10,6 +10,7 @@ import Workshops from './workshops/workshops';
 function App() {
   return (
     <>
+      <Header />
       <Banner />
       <Projects />
       <LocalMeet />
