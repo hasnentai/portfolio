@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     // Fetch the JSON file from the public folder
-    fetch("/assetlinks.json")
+    fetch("/.well-known/assetlinks.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
